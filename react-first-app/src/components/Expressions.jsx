@@ -4,13 +4,15 @@ const Expressions = () => {
 
     const myName="Amulya Raj";
     const multiply=(a,b)=> a*b;
+    const specialClass="special-one";
   return (
     <div>
       <p>2 x 2 ={2*2}</p>
       <h1>{myName}</h1>
       <p>My friends list: {["abc","xyz","pqr"]}</p>
       <p>9X2={multiply(9,2)}</p>  
-    </div>
+      <p className={specialClass}>This is Special Class</p>
+    </div> 
   )
 }
 
