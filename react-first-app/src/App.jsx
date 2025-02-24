@@ -2,6 +2,8 @@ import Main from "./components/Main";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Expressions from "./components/Expressions";
+import ProductInfo from "./components/ProductInfo";
+import Lists from "./components/Lists";
 
 function  App(){
   return <>
@@ -9,6 +11,8 @@ function  App(){
     <Main/>
     <Footer/>
     <Expressions/>
+    <ProductInfo/>
+    <Lists/>
   </>
 }
 
