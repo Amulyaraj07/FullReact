@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Expressions from "./components/Expressions";
 import ProductInfo from "./components/ProductInfo";
 import Lists from "./components/Lists";
+import Props from "./components/Props";
 
 function  App(){
   return <>
@@ -13,6 +14,13 @@ function  App(){
     <Expressions/>
     <ProductInfo/>
     <Lists/>
+    <Props
+      img="someimage.jpg"
+      name="Amulya Raj"
+      age={20}
+      isMarried={false}
+      hobbies={["reading", "coding", "gaming"]}
+    />
   </>
 }
 
