@@ -5,6 +5,7 @@ import Expressions from "./components/Expressions";
 import ProductInfo from "./components/ProductInfo";
 import Lists from "./components/Lists";
 import Props from "./components/Props";
+import ConditionalRendering from "./components/ConditionalRendering";
 
 function  App(){
   return <>
@@ -21,6 +22,12 @@ function  App(){
       isMarried={false}
       hobbies={["reading", "coding", "gaming"]}
     />
+
+    {/* <ConditionalRendering isValid={true}/> */}
+
+    {/* <ConditionalRendering isLogged={true} isAdmin={true}/> */}
+
+    <ConditionalRendering timeOfDay="morning"/>
   </>
 }
 
