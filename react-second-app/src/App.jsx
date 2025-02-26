@@ -6,6 +6,8 @@ import Counter from "./components/Counter"
 import FriendList from "./components/FriendList"
 import Movies from "./components/Movies"
 import CompAB from "./components/CompAB"
+import ExampleOne from "./components/ExampleOne"
+import ExampleTwo from "./components/ExampleTwo"
  
 function App() {
 
@@ -18,7 +20,9 @@ function App() {
       <Counter/>
       <FriendList/> */}
       {/* <Movies/> */}
-      <CompAB/>
+      {/* <CompAB/> */}
+      <ExampleOne/>
+      <ExampleTwo/>
 
     </>
   )
