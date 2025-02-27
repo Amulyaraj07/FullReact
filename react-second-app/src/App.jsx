@@ -8,6 +8,8 @@ import Movies from "./components/Movies"
 import CompAB from "./components/CompAB"
 import ExampleOne from "./components/ExampleOne"
 import ExampleTwo from "./components/ExampleTwo"
+import ExampleThree from "./components/ExampleThree"
+import Todo from "./components/Todo"
  
 function App() {
 
@@ -21,8 +23,12 @@ function App() {
       <FriendList/> */}
       {/* <Movies/> */}
       {/* <CompAB/> */}
-      <ExampleOne/>
+      {/* <ExampleOne/>
       <ExampleTwo/>
+      <ExampleThree/> */}
+
+      <Todo/>
+      
 
     </>
   )
