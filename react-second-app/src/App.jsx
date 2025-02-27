@@ -10,6 +10,8 @@ import ExampleOne from "./components/ExampleOne"
 import ExampleTwo from "./components/ExampleTwo"
 import ExampleThree from "./components/ExampleThree"
 import Todo from "./components/Todo"
+import Profile from "./components/Profile"
+import ShoppingList from "./components/ShoppingList"
  
 function App() {
 
@@ -27,7 +29,10 @@ function App() {
       <ExampleTwo/>
       <ExampleThree/> */}
 
-      <Todo/>
+      {/* <Todo/> */}
+
+      {/* <Profile/> */}
+      <ShoppingList/>
       
 
     </>
