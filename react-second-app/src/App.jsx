@@ -12,6 +12,7 @@ import ExampleThree from "./components/ExampleThree"
 import Todo from "./components/Todo"
 import Profile from "./components/Profile"
 import ShoppingList from "./components/ShoppingList"
+import CopyingInput from "./components/portal/CopyingInput"
  
 function App() {
 
@@ -32,7 +33,8 @@ function App() {
       {/* <Todo/> */}
 
       {/* <Profile/> */}
-      <ShoppingList/>
+      {/* <ShoppingList/> */}
+      <CopyingInput/>
       
 
     </>
