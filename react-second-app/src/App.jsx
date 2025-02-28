@@ -13,6 +13,9 @@ import Todo from "./components/Todo"
 import Profile from "./components/Profile"
 import ShoppingList from "./components/ShoppingList"
 import CopyingInput from "./components/portal/CopyingInput"
+import Switcher from "./components/portal/Switcher"
+import UseEffect from "./components/useEffect/UseEffect"
+import Data from "./components/useEffect/Data"
  
 function App() {
 
@@ -34,7 +37,11 @@ function App() {
 
       {/* <Profile/> */}
       {/* <ShoppingList/> */}
-      <CopyingInput/>
+      {/* <CopyingInput/>
+      <Switcher/> */}
+
+      {/* <UseEffect/> */}
+      <Data/>
       
 
     </>
