@@ -19,6 +19,9 @@ import Data from "./components/useEffect/Data"
 import BasicEffects from "./components/useEffect/BasicEffects"
 import CounterEffect from "./components/useEffect/CounterEffect"
 import FetchDataEffect from "./components/useEffect/FetchDataEffect"
+import ComponentA from "./components/propdrilling/ComponentA"
+import MainComp from "./components/createContext/MainComp"
+import { UserContext, UserProvider } from "./components/useContextPractice/UserContext"
  
 function App() {
 
@@ -45,9 +48,17 @@ function App() {
 
       {/* <UseEffect/> */}
       {/* <Data/> */}
-      <BasicEffects/>
+      {/* <BasicEffects/>
       <CounterEffect/>
-      <FetchDataEffect/>
+      <FetchDataEffect/> */}
+
+      {/* <ComponentA name="Amulya"/> */}
+
+      {/* <MainComp/> */}
+
+      <UserProvider >
+        <UserContext/>
+      </UserProvider>
       
 
     </>
