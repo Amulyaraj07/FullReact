@@ -16,6 +16,9 @@ import CopyingInput from "./components/portal/CopyingInput"
 import Switcher from "./components/portal/Switcher"
 import UseEffect from "./components/useEffect/UseEffect"
 import Data from "./components/useEffect/Data"
+import BasicEffects from "./components/useEffect/BasicEffects"
+import CounterEffect from "./components/useEffect/CounterEffect"
+import FetchDataEffect from "./components/useEffect/FetchDataEffect"
  
 function App() {
 
@@ -41,7 +44,10 @@ function App() {
       <Switcher/> */}
 
       {/* <UseEffect/> */}
-      <Data/>
+      {/* <Data/> */}
+      <BasicEffects/>
+      <CounterEffect/>
+      <FetchDataEffect/>
       
 
     </>
